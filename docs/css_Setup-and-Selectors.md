@@ -9,7 +9,7 @@
     <p style="font-family: Arial;">I'm learning to code</p>
     ```
 
-1. **The \<style> Tag**
+1. **The &lt;style&gt; Tag**
    ```CSS
    <style>
    p {
@@ -95,7 +95,7 @@
 1. **Specificity**
     1. Specificity is the order by which the browser decides which CSS styles will be displayed.
     1. In practice, using the lowest degree of specificity, so that if an element needs a new style, it is easy to override.
-    1. tag > class > ID
+    1. tag &gt; class &gt; ID
     * HTML
     ``` HTML
     <h1 class="headline">Breaking News</h1>
@@ -119,7 +119,7 @@
     ```
 
 1. **Nested Elements**
-    1. There are some nested within other HTML elements. For instance \<ol>, \<ul>
+    1. Nested elements can be selected by separating selectors with a space.
     * HTML
     ```HTML
     <ul class='main-list'>
@@ -149,7 +149,7 @@
 ## Supplement
 
 1. **Important**
-    1. ```!important``` can be applied to specific attributes instead of full rules.
+    1. The ```!important``` flag will override any style, however it should almost never be used, as it is extremely difficult to override.
     1. Once !important is used, it is very hard to override.
     1. As a result, it should almost never be used.
     ```css
@@ -159,5 +159,21 @@
     ```
 
 1. **Mutiple Selectors**
+   1. Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
+   * CSS
+   ```css
+   h1 {
+       font-family: Georgia;
+   }
+   .menu {
+       font-family: Georgia;
+   }
+   ```
+   * CSS
+   ```css
+   h1,
+   .menu {
+       font-family: Georgia;
+   }
 
-1. **Review CSS selectors**
+   ```

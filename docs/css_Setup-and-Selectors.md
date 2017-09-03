@@ -1,6 +1,6 @@
 # **CSS Setup and Selectors**
 
-  Int this lessonm you will learn how to set up a CSS file, and how to create CSS selectors, and how to set up CSS rule sets.
+  In this lesson you will learn how to set up a CSS file, and how to create CSS selectors, and how to set up CSS rule sets.
 1. **Intro to CSS**
     * Cascading Style Sheets: is a language that web developers use to _style_ the HTML content on a web page.
 

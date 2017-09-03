@@ -1,1 +1,4 @@
 site_name: My Docs
+pages: 
+  home: index.md
+  CSS Setup: css_Setup-and-Selectors.md

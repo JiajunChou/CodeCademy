@@ -1,0 +1,24 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to MkDocs\n\n\n\n\nCss: Setup and Selectors",
+            "title": "home"
+        },
+        {
+            "location": "/#welcome-to-mkdocs",
+            "text": "Css: Setup and Selectors",
+            "title": "Welcome to MkDocs"
+        },
+        {
+            "location": "/css_Setup-and-Selectors/",
+            "text": "CSS Setup and Selectors\n\n\nInt this lessonm you will learn how to set up a CSS file, and how to create CSS selectors, and how to set up CSS rule sets.\n1. \nIntro to CSS\n\n    * Cascading Style Sheets: is a language that web developers use to \nstyle\n the HTML content on a web page.\n\n\n\n\n\n\nInline Styles\n\n    \nhtml\n    <p style=\"font-family: Arial;\">I'm learning to code</p>\n\n\n\n\n\n\nThe \\",
+            "title": "CSS Setup"
+        },
+        {
+            "location": "/css_Setup-and-Selectors/#css-setup-and-selectors",
+            "text": "Int this lessonm you will learn how to set up a CSS file, and how to create CSS selectors, and how to set up CSS rule sets.\n1.  Intro to CSS \n    * Cascading Style Sheets: is a language that web developers use to  style  the HTML content on a web page.    Inline Styles \n     html\n    <p style=\"font-family: Arial;\">I'm learning to code</p>    The \\",
+            "title": "CSS Setup and Selectors"
+        }
+    ]
+}

@@ -370,7 +370,7 @@ An element needs to be styled uniquely.</li>
 <li>
 <p><strong>Nested Elements</strong></p>
 <ol>
-<li>There are some nested within other HTML elements. For instance \<ol>, \<ul></li>
+<li>Nested elements can be selected by separating selectors with a space.</li>
 <li>HTML
 <div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">&#39;main-list&#39;</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span> ...<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
@@ -404,7 +404,7 @@ An element needs to be styled uniquely.</li>
 <li>
 <p><strong>Important</strong></p>
 <ol>
-<li><code>!important</code> can be applied to specific attributes instead of full rules.</li>
+<li>The <code>!important</code> flag will override any style, however it should almost never be used, as it is extremely difficult to override.</li>
 <li>Once !important is used, it is very hard to override.</li>
 <li>As a result, it should almost never be used.
 <div class="highlight"><pre><span></span><span class="nt">p</span> <span class="p">{</span>
@@ -416,7 +416,7 @@ An element needs to be styled uniquely.</li>
 <li>
 <p><strong>Mutiple Selectors</strong></p>
 </li>
-<li>It's possible to add CSS styles to multiple CSS selectors all at once.</li>
+<li>Multiple unrelated selectors can receive the same styles by separating the selector names with commas.</li>
 <li>CSS
    <div class="highlight"><pre><span></span><span class="nt">h1</span> <span class="p">{</span>
     <span class="k">font-family</span><span class="p">:</span> <span class="n">Georgia</span><span class="p">;</span>
@@ -425,17 +425,12 @@ An element needs to be styled uniquely.</li>
     <span class="k">font-family</span><span class="p">:</span> <span class="n">Georgia</span><span class="p">;</span>
 <span class="p">}</span>
 </pre></div></li>
-<li>
-<p>CSS
+<li>CSS
    <div class="highlight"><pre><span></span><span class="nt">h1</span><span class="o">,</span>
 <span class="p">.</span><span class="nc">menu</span> <span class="p">{</span>
     <span class="k">font-family</span><span class="p">:</span> <span class="n">Georgia</span><span class="p">;</span>
 <span class="p">}</span>
-</pre></div></p>
-</li>
-<li>
-<p><strong>Review CSS selectors</strong></p>
-</li>
+</pre></div></li>
 </ol>
                 
                   

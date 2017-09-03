@@ -2,14 +2,12 @@ site_name: CodeCademy Note
 pages: 
    - home: index.md
    - CSS Setup: css_Setup-and-Selectors.md
-   theme: 'material'
+theme: 'material'
 markdown_extensions:
   - pymdownx.arithmatex
   - pymdownx.betterem(smart_enable=all)
   - pymdownx.caret
   - pymdownx.critic
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark

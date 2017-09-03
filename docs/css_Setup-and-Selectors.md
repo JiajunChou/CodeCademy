@@ -146,7 +146,17 @@
     }
     ```
 
+## Supplement
+
 1. **Important**
+    1. ```!important``` can be applied to specific attributes instead of full rules.
+    1. Once !important is used, it is very hard to override.
+    1. As a result, it should almost never be used.
+    ```css
+    p {
+        color: blue !omportant;
+    }
+    ```
 
 1. **Mutiple Selectors**
 

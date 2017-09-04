@@ -2,6 +2,7 @@ site_name: CodeCademy Note
 pages: 
    - home: index.md
    - CSS Setup: css_Setup-and-Selectors.md
+   - CSS Visual Rules: css_Visual-Rules.md
 theme: 'material'
 markdown_extensions:
   - pymdownx.arithmatex

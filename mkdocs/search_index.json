@@ -24,6 +24,16 @@
             "location": "/css_Setup-and-Selectors/#supplement",
             "text": "Important   The  !important  flag will override any style, however it should almost never be used, as it is extremely difficult to override.  Once !important is used, it is very hard to override.  As a result, it should almost never be used. p   { \n     color :   blue   ! omportant ;  }      Mutiple Selectors   Multiple unrelated selectors can receive the same styles by separating the selector names with commas.  CSS\n    h1   { \n     font-family :   Georgia ;  }  . menu   { \n     font-family :   Georgia ;  }   CSS\n    h1 ,  . menu   { \n     font-family :   Georgia ;  }",
             "title": "Supplement"
+        },
+        {
+            "location": "/css_Visual-Rules/",
+            "text": "CSS Visual Rules\n\n\n\n\n\n\nIntroduction To Visual Rules\n\n\n\n\n\n\nCSS Structure\n\n\n\n\n\n\nFont Family\n\n\n\n\nThe \nfont-family\n property defines the typeface of an element.\n\n\n\n\n\n\n\n\nFont Size\n\n\n\n\nfont-size\n controls the size of text displayed.\n\n\n\n\n\n\n\n\nFont Weight\n\n\n\n\nfont-weight\n defines how thin or thick text is displayed.\n\n\n\n\n\n\n\n\nText Align\n\n\n\n\nThe \ntext-align\n property places text in the left, right, or center of its parent container.\n\n\n\n\n\n\n\n\nColor\n\n\n\n\nText can have two different color attributes: \ncolor\n and \nbackground-color\n. \ncolor\n defines the color of the text, while \nbackground-color\n defines the color behind the text.\n\n\n\n\n\n\n\n\nOpacity\n\n\n\n\nCSS can make an element transparent with the \nopacity\n property.\n\n\n\n\n\n\n\n\nBackground Image\n\n\n\n\nCSS can also set the background of an element to an image with the \nbackground-image\n property.\n\n\n\n\n\n\n\n\nReview Visual Rules",
+            "title": "CSS Visual Rules"
+        },
+        {
+            "location": "/css_Visual-Rules/#css-visual-rules",
+            "text": "Introduction To Visual Rules    CSS Structure    Font Family   The  font-family  property defines the typeface of an element.     Font Size   font-size  controls the size of text displayed.     Font Weight   font-weight  defines how thin or thick text is displayed.     Text Align   The  text-align  property places text in the left, right, or center of its parent container.     Color   Text can have two different color attributes:  color  and  background-color .  color  defines the color of the text, while  background-color  defines the color behind the text.     Opacity   CSS can make an element transparent with the  opacity  property.     Background Image   CSS can also set the background of an element to an image with the  background-image  property.     Review Visual Rules",
+            "title": "CSS Visual Rules"
         }
     ]
 }

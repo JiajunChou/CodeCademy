@@ -24,5 +24,3 @@
 
 1. **Background Image**
     * CSS can also set the background of an element to an image with the ```background-image``` property.
-
-1. **Review Visual Rules**
